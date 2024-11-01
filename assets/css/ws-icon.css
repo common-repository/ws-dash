@@ -1,0 +1,1472 @@
+@font-face {
+    font-family: 'ws-icon';
+    src:    url('../fonts/ws-icon.eot?usftin');
+    src:    url('../fonts/ws-icon.eot?usftin#iefix') format('embedded-opentype'),
+        url('../fonts/ws-icon.ttf?usftin') format('truetype'),
+        url('../fonts/ws-icon.woff?usftin') format('woff'),
+        url('../fonts/ws-icon.svg?usftin#ws-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "ws-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ws-"]:before,
+[class*=" ws-"]:before {
+  font-family: "ws-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ws-kdc:before {
+    content: "\4b";
+}
+.ws-kdc-o:before {
+    content: "\6b";
+}
+.ws-ws-b:before {
+    content: "\77";
+}
+.ws-ws:before {
+    content: "\73";
+}
+.ws-blogger:before {
+    content: "\62";
+}
+.ws-dailymotion:before {
+    content: "\64";
+}
+.ws-facebook:before {
+    content: "\66";
+}
+.ws-flickr:before {
+    content: "\e907";
+}
+.ws-foursquare:before {
+    content: "\e908";
+}
+.ws-google:before {
+    content: "\67";
+}
+.ws-instagram:before {
+    content: "\69";
+}
+.ws-linkedin:before {
+    content: "\6c";
+}
+.ws-meetup:before {
+    content: "\6d";
+}
+.ws-metacafe:before {
+    content: "\e90d";
+}
+.ws-pinterest:before {
+    content: "\70";
+}
+.ws-slideshare:before {
+    content: "\e90f";
+}
+.ws-soundcloud:before {
+    content: "\e910";
+}
+.ws-tagged:before {
+    content: "\e911";
+}
+.ws-travbuddy:before {
+    content: "\e912";
+}
+.ws-tripadvisor:before {
+    content: "\61";
+}
+.ws-tw:before {
+    content: "\e914";
+}
+.ws-twitter:before {
+    content: "\74";
+}
+.ws-vimeo:before {
+    content: "\76";
+}
+.ws-vine:before {
+    content: "\e917";
+}
+.ws-wikipedia:before {
+    content: "\e918";
+}
+.ws-wordpress:before {
+    content: "\e919";
+}
+.ws-youtube:before {
+    content: "\79";
+}
+.ws-yt:before {
+    content: "\e91b";
+}
+.ws-blogger-r:before {
+    content: "\42";
+}
+.ws-dailymotion-r:before {
+    content: "\44";
+}
+.ws-facebook-r:before {
+    content: "\46";
+}
+.ws-flickr-r:before {
+    content: "\e91f";
+}
+.ws-foursquare-r:before {
+    content: "\e920";
+}
+.ws-google-r:before {
+    content: "\47";
+}
+.ws-instagram-r:before {
+    content: "\49";
+}
+.ws-linkedin-r:before {
+    content: "\4c";
+}
+.ws-meetup-r:before {
+    content: "\4d";
+}
+.ws-metacafe-r:before {
+    content: "\e925";
+}
+.ws-pinterest-r:before {
+    content: "\50";
+}
+.ws-slideshare-r:before {
+    content: "\e927";
+}
+.ws-soundcloud-r:before {
+    content: "\53";
+}
+.ws-tagged-r:before {
+    content: "\e929";
+}
+.ws-travbuddy-r:before {
+    content: "\e92a";
+}
+.ws-tripadvisor-r:before {
+    content: "\41";
+}
+.ws-tw-r:before {
+    content: "\e92c";
+}
+.ws-twitter-r:before {
+    content: "\54";
+}
+.ws-vimeo-r:before {
+    content: "\56";
+}
+.ws-vine-r:before {
+    content: "\e92f";
+}
+.ws-wikipedia-r:before {
+    content: "\e930";
+}
+.ws-wordpress-r:before {
+    content: "\57";
+}
+.ws-youtube-r:before {
+    content: "\59";
+}
+.ws-yt-r:before {
+    content: "\e933";
+}
+.ws-blogger-s:before {
+    content: "\e934";
+}
+.ws-dailymotion-s:before {
+    content: "\e935";
+}
+.ws-facebook-s:before {
+    content: "\e936";
+}
+.ws-flickr-s:before {
+    content: "\e937";
+}
+.ws-foursquare-s:before {
+    content: "\e938";
+}
+.ws-google-s:before {
+    content: "\e939";
+}
+.ws-instagram-s:before {
+    content: "\e93a";
+}
+.ws-linkedin-s:before {
+    content: "\e93b";
+}
+.ws-meetup-s:before {
+    content: "\e93c";
+}
+.ws-metacafe-s:before {
+    content: "\e93d";
+}
+.ws-pinterest-s:before {
+    content: "\e93e";
+}
+.ws-slideshare-s:before {
+    content: "\e93f";
+}
+.ws-soundcloud-s:before {
+    content: "\e940";
+}
+.ws-tagged-s:before {
+    content: "\e941";
+}
+.ws-travbuddy-s:before {
+    content: "\e942";
+}
+.ws-tripadvisor-s:before {
+    content: "\e943";
+}
+.ws-tw-s:before {
+    content: "\e944";
+}
+.ws-twitter-s:before {
+    content: "\e945";
+}
+.ws-vimeo-s:before {
+    content: "\e946";
+}
+.ws-vine-s:before {
+    content: "\e947";
+}
+.ws-wikipedia-s:before {
+    content: "\e948";
+}
+.ws-wordpress-s:before {
+    content: "\e949";
+}
+.ws-youtube-s:before {
+    content: "\e94a";
+}
+.ws-yt-s:before {
+    content: "\e94b";
+}
+.ws-star:before {
+    content: "\e94c";
+}
+.ws-stars-symbol:before {
+    content: "\e94d";
+}
+.ws-persons-or-person-number-three-symbol:before {
+    content: "\e94e";
+}
+.ws-persons-sign:before {
+    content: "\e94f";
+}
+.ws-stars-outlines:before {
+    content: "\e950";
+}
+.ws-stars-symbol2:before {
+    content: "\e951";
+}
+.ws-stars-hotel-signal:before {
+    content: "\e952";
+}
+.ws-stars-sign:before {
+    content: "\e953";
+}
+.ws-persons-symbol:before {
+    content: "\e954";
+}
+.ws-stars-sign2:before {
+    content: "\e955";
+}
+.ws-persons-male-silhouettes:before {
+    content: "\e956";
+}
+.ws-persons-symbol2:before {
+    content: "\e957";
+}
+.ws-persons:before {
+    content: "\e958";
+}
+.ws-hours-circular-sign:before {
+    content: "\e959";
+}
+.ws-hours-room-service:before {
+    content: "\e95a";
+}
+.ws-hours-sign:before {
+    content: "\e95b";
+}
+.ws-add-hotel-symbol:before {
+    content: "\e95c";
+}
+.ws-air-conditioned:before {
+    content: "\e95d";
+}
+.ws-air-conditioner-sign:before {
+    content: "\e95e";
+}
+.ws-air-conditioner:before {
+    content: "\e95f";
+}
+.ws-airplane-black-shape-ascending-rotated-to-right:before {
+    content: "\e960";
+}
+.ws-airplane-outline-pointing-up:before {
+    content: "\e961";
+}
+.ws-alarm-clock-of-old-design:before {
+    content: "\e962";
+}
+.ws-antenna-signal-symbol:before {
+    content: "\e963";
+}
+.ws-arroba-sign:before {
+    content: "\e964";
+}
+.ws-baby-crib:before {
+    content: "\e965";
+}
+.ws-bag-for-ladies:before {
+    content: "\e966";
+}
+.ws-bagagiste-with-baggage-on-a-platform-cart:before {
+    content: "\e967";
+}
+.ws-baggage-cart-1:before {
+    content: "\e968";
+}
+.ws-baggage-cart:before {
+    content: "\e969";
+}
+.ws-baggage-on-an-elegant-hotel-platform-cart:before {
+    content: "\e96a";
+}
+.ws-baggage-on-platform-cart-outline:before {
+    content: "\e96b";
+}
+.ws-baggage-outline:before {
+    content: "\e96c";
+}
+.ws-balcony-and-door:before {
+    content: "\e96d";
+}
+.ws-bar-24-hours-rounded-square-signal:before {
+    content: "\e96e";
+}
+.ws-barbecue:before {
+    content: "\e96f";
+}
+.ws-basketball-ball-outline:before {
+    content: "\e970";
+}
+.ws-bath-tub:before {
+    content: "\e971";
+}
+.ws-bathroom-sink:before {
+    content: "\e972";
+}
+.ws-bathrooms-o:before {
+    content: "\e973";
+}
+.ws-baths-marker-point:before {
+    content: "\e974";
+}
+.ws-beach-signal:before {
+    content: "\e975";
+}
+.ws-beach-view-of-sea-sun-and-seagulls-couple:before {
+    content: "\e976";
+}
+.ws-bed-for-a-couple:before {
+    content: "\e977";
+}
+.ws-bed-for-two-persons:before {
+    content: "\e978";
+}
+.ws-bed-for-two:before {
+    content: "\e979";
+}
+.ws-bed-side-view:before {
+    content: "\e97a";
+}
+.ws-bedroom-card:before {
+    content: "\e97b";
+}
+.ws-beer-jar:before {
+    content: "\e97c";
+}
+.ws-bell-boy-portrait:before {
+    content: "\e97d";
+}
+.ws-bell-boy-with-baggage:before {
+    content: "\e97e";
+}
+.ws-bike-parking-signal:before {
+    content: "\e97f";
+}
+.ws-bike-shape:before {
+    content: "\e980";
+}
+.ws-bike-zone-signal:before {
+    content: "\e981";
+}
+.ws-bikes-sale-sign-in-dollars:before {
+    content: "\e982";
+}
+.ws-bills-eur:before {
+    content: "\e983";
+}
+.ws-bills-inr:before {
+    content: "\e984";
+}
+.ws-bills-jpy:before {
+    content: "\e985";
+}
+.ws-bingo:before {
+    content: "\e986";
+}
+.ws-black-beach-umbrella:before {
+    content: "\e987";
+}
+.ws-blender-outline:before {
+    content: "\e988";
+}
+.ws-blu-ray-sign:before {
+    content: "\e989";
+}
+.ws-bowling-ball-and-pin:before {
+    content: "\e98a";
+}
+.ws-boy-with-headphones:before {
+    content: "\e98b";
+}
+.ws-broom-black-silhouette:before {
+    content: "\e98c";
+}
+.ws-brush-outline-in-diagonal:before {
+    content: "\e98d";
+}
+.ws-buffet:before {
+    content: "\e98e";
+}
+.ws-bunk-bed:before {
+    content: "\e98f";
+}
+.ws-burger-side-view-outline:before {
+    content: "\e990";
+}
+.ws-bus-parking-sign:before {
+    content: "\e991";
+}
+.ws-cable-tv-sign-with-monitor:before {
+    content: "\e992";
+}
+.ws-calendar-daily-page-on-day-31:before {
+    content: "\e993";
+}
+.ws-call-a-taxi-symbol:before {
+    content: "\e994";
+}
+.ws-call-cost-symbol:before {
+    content: "\e995";
+}
+.ws-canoe-boat-with-rowing:before {
+    content: "\e996";
+}
+.ws-car-parking-signal:before {
+    content: "\e997";
+}
+.ws-caravan-can-outline-for-nomad-lifestyle:before {
+    content: "\e998";
+}
+.ws-carpet-hanging-of-a-rope:before {
+    content: "\e999";
+}
+.ws-casino-chip-with-number-11:before {
+    content: "\e99a";
+}
+.ws-casino-map-marker:before {
+    content: "\e99b";
+}
+.ws-ceiling-covered-parking-signal:before {
+    content: "\e99c";
+}
+.ws-chapel:before {
+    content: "\e99d";
+}
+.ws-chef-toque-outline:before {
+    content: "\e99e";
+}
+.ws-chimney-with-fire:before {
+    content: "\e99f";
+}
+.ws-church-cross:before {
+    content: "\e9a0";
+}
+.ws-church-localization-marker-sign:before {
+    content: "\e9a1";
+}
+.ws-cigarette:before {
+    content: "\e9a2";
+}
+.ws-clock-at-twelve:before {
+    content: "\e9a3";
+}
+.ws-closed-baggage:before {
+    content: "\e9a4";
+}
+.ws-cloth-hanging-of-a-hanger:before {
+    content: "\e9a5";
+}
+.ws-cocktail-glass:before {
+    content: "\e9a6";
+}
+.ws-cocktails-24-hours:before {
+    content: "\e9a7";
+}
+.ws-coffee-cup-of-hot-drink-black-silhouette:before {
+    content: "\e9a8";
+}
+.ws-coffee-jar:before {
+    content: "\e9a9";
+}
+.ws-coffee-shop-marker:before {
+    content: "\e9aa";
+}
+.ws-collective-elevator-sign:before {
+    content: "\e9ab";
+}
+.ws-comb-on-hair:before {
+    content: "\e9ac";
+}
+.ws-compact-disc:before {
+    content: "\e9ad";
+}
+.ws-cot-black-silhouette-side-view:before {
+    content: "\e9ae";
+}
+.ws-couple-in-sauna:before {
+    content: "\e9af";
+}
+.ws-couple-of-persons-resting-on-a-bunk:before {
+    content: "\e9b0";
+}
+.ws-covered-swimming-pool-symbol:before {
+    content: "\e9b1";
+}
+.ws-covered-swimming-pool-with-roof:before {
+    content: "\e9b2";
+}
+.ws-credit-card-payment:before {
+    content: "\e9b3";
+}
+.ws-dancer-with-music:before {
+    content: "\e9b4";
+}
+.ws-delete-hotel-symbol:before {
+    content: "\e9b5";
+}
+.ws-delete-transport-symbol:before {
+    content: "\e9b6";
+}
+.ws-descend-signal:before {
+    content: "\e9b7";
+}
+.ws-dices-couple:before {
+    content: "\e9b8";
+}
+.ws-directional-arrows-signals-on-a-pole:before {
+    content: "\e9b9";
+}
+.ws-disability:before {
+    content: "\e9ba";
+}
+.ws-disco-ball:before {
+    content: "\e9bb";
+}
+.ws-do-not-disturb-hanging-signal-for-hotel-doors:before {
+    content: "\e9bc";
+}
+.ws-do-not-disturb-signal-to-hang-from-hotel-doors:before {
+    content: "\e9bd";
+}
+.ws-do-not-entry-signal-for-hotel-door:before {
+    content: "\e9be";
+}
+.ws-do-not-pass-hanging-signal-for-door:before {
+    content: "\e9bf";
+}
+.ws-do-not-pass-signal-for-hang-on-doors:before {
+    content: "\e9c0";
+}
+.ws-do-not-swim-sign:before {
+    content: "\e9c1";
+}
+.ws-dog-s:before {
+    content: "\e9c2";
+}
+.ws-dont-smoke-sign:before {
+    content: "\e9c3";
+}
+.ws-dont-smoke:before {
+    content: "\e9c4";
+}
+.ws-down-stair:before {
+    content: "\e9c5";
+}
+.ws-drink-glass:before {
+    content: "\e9c6";
+}
+.ws-drying-machine-o:before {
+    content: "\e9c7";
+}
+.ws-dumbbell-o:before {
+    content: "\e9c8";
+}
+.ws-dvd-player:before {
+    content: "\e9c9";
+}
+.ws-dvd-sign:before {
+    content: "\e9ca";
+}
+.ws-dvd-system:before {
+    content: "\e9cb";
+}
+.ws-eight-persons-or-person-number-8-symbol:before {
+    content: "\e9cc";
+}
+.ws-eight-persons-or-person-number-8:before {
+    content: "\e9cd";
+}
+.ws-eight-persons-symbol:before {
+    content: "\e9ce";
+}
+.ws-eight-persons:before {
+    content: "\e9cf";
+}
+.ws-elevator-buttons:before {
+    content: "\e9d0";
+}
+.ws-elevator-for-people:before {
+    content: "\e9d1";
+}
+.ws-elevator-symbol:before {
+    content: "\e9d2";
+}
+.ws-elevator-with-one-person-inside-and-up-and-down-arrows-at-sides:before {
+    content: "\e9d3";
+}
+.ws-english-receptionist:before {
+    content: "\e9d4";
+}
+.ws-entertainment-area-symbol-with-abc-cubes-and-house-outline:before {
+    content: "\e9d5";
+}
+.ws-exit-door-symbol:before {
+    content: "\e9d6";
+}
+.ws-exit-signal:before {
+    content: "\e9d7";
+}
+.ws-extinguisher-outline:before {
+    content: "\e9d8";
+}
+.ws-fan-black-silhouette:before {
+    content: "\e9d9";
+}
+.ws-fan-of-square-shape-outline:before {
+    content: "\e9da";
+}
+.ws-fan-tool:before {
+    content: "\e9db";
+}
+.ws-fast-food-placeholder:before {
+    content: "\e9dc";
+}
+.ws-fax-top-view:before {
+    content: "\e9dd";
+}
+.ws-firewood-sale-symbol:before {
+    content: "\e9de";
+}
+.ws-firewood-signal:before {
+    content: "\e9df";
+}
+.ws-first-aid-case:before {
+    content: "\e9e0";
+}
+.ws-first-aid-kit:before {
+    content: "\e9e1";
+}
+.ws-five-persons-or-person-number-five:before {
+    content: "\e9e2";
+}
+.ws-five-persons-silhouettes:before {
+    content: "\e9e3";
+}
+.ws-five-persons-symbol-1:before {
+    content: "\e9e4";
+}
+.ws-five-persons-symbol:before {
+    content: "\e9e5";
+}
+.ws-five-stars-hotel-signal-1:before {
+    content: "\e9e6";
+}
+.ws-five-stars-hotel-signal:before {
+    content: "\e9e7";
+}
+.ws-five-stars-quality-symbol:before {
+    content: "\e9e8";
+}
+.ws-flowers-shop:before {
+    content: "\e9e9";
+}
+.ws-food-covered-by-a-bell-shape-outline:before {
+    content: "\e9ea";
+}
+.ws-food-covered:before {
+    content: "\e9eb";
+}
+.ws-food-in-bedroom:before {
+    content: "\e9ec";
+}
+.ws-food-service-to-bedroom:before {
+    content: "\e9ed";
+}
+.ws-four-persons-or-person-number-4-symbol:before {
+    content: "\e9ee";
+}
+.ws-four-persons-sign:before {
+    content: "\e9ef";
+}
+.ws-four-persons-symbol:before {
+    content: "\e9f0";
+}
+.ws-four-persons:before {
+    content: "\e9f1";
+}
+.ws-four-stars:before {
+    content: "\e9f2";
+}
+.ws-free-wifi-signal:before {
+    content: "\e9f3";
+}
+.ws-french-receptionist:before {
+    content: "\e9f4";
+}
+.ws-gambling-coins-machine-with-winner-result-of-three-seven:before {
+    content: "\e9f5";
+}
+.ws-garage-with-roof-and-parked-car:before {
+    content: "\e9f6";
+}
+.ws-garage:before {
+    content: "\e9f7";
+}
+.ws-gas-cylinder-outline:before {
+    content: "\e9f8";
+}
+.ws-gift-box-outline:before {
+    content: "\e9f9";
+}
+.ws-glass-with-water:before {
+    content: "\e9fa";
+}
+.ws-golf-ball-and-tee:before {
+    content: "\e9fb";
+}
+.ws-golf-elements:before {
+    content: "\e9fc";
+}
+.ws-golf-hole-with-a-flag:before {
+    content: "\e9fd";
+}
+.ws-golf-putter-ball-and-tee:before {
+    content: "\e9fe";
+}
+.ws-gym-dumbbell-black-silhouette:before {
+    content: "\e9ff";
+}
+.ws-hair-cutting:before {
+    content: "\ea00";
+}
+.ws-hairdryer-outline:before {
+    content: "\ea01";
+}
+.ws-hairdryer:before {
+    content: "\ea02";
+}
+.ws-half-star-shape:before {
+    content: "\ea03";
+}
+.ws-hammock-with-a-person-lying-and-resting-on-it:before {
+    content: "\ea04";
+}
+.ws-hand-with-a-dumbbell:before {
+    content: "\ea05";
+}
+.ws-hanger-line-tool:before {
+    content: "\ea06";
+}
+.ws-hdmi-cable:before {
+    content: "\ea07";
+}
+.ws-hdmi-high-definition-multimedia-interface:before {
+    content: "\ea08";
+}
+.ws-headphones:before {
+    content: "\ea09";
+}
+.ws-hearts-outlines-of-gross-lines:before {
+    content: "\ea0a";
+}
+.ws-heating-black-tool:before {
+    content: "\ea0b";
+}
+.ws-heating-device-for-winter:before {
+    content: "\ea0c";
+}
+.ws-heating-device-in-a-bedroom:before {
+    content: "\ea0d";
+}
+.ws-heating:before {
+    content: "\ea0e";
+}
+.ws-hot-cakes:before {
+    content: "\ea0f";
+}
+.ws-hot-coffee-mug-outline:before {
+    content: "\ea10";
+}
+.ws-hot-towels:before {
+    content: "\ea11";
+}
+.ws-hotel-1-star-signal:before {
+    content: "\ea12";
+}
+.ws-hotel-2-stars-signal:before {
+    content: "\ea13";
+}
+.ws-hotel-building:before {
+    content: "\ea14";
+}
+.ws-hotel-check-symbol:before {
+    content: "\ea15";
+}
+.ws-hotel-key-outline-in-horizontal-position:before {
+    content: "\ea16";
+}
+.ws-hotel-of-three-stars-signal:before {
+    content: "\ea17";
+}
+.ws-hotel-of-two-stars-quality:before {
+    content: "\ea18";
+}
+.ws-hotel-reception-bell:before {
+    content: "\ea19";
+}
+.ws-hotel-reception-outline:before {
+    content: "\ea1a";
+}
+.ws-hotel-search-interface-symbol:before {
+    content: "\ea1b";
+}
+.ws-hotel-sign:before {
+    content: "\ea1c";
+}
+.ws-ice-cubes-in-a-square:before {
+    content: "\ea1d";
+}
+.ws-indoor-temperature:before {
+    content: "\ea1e";
+}
+.ws-info-sign:before {
+    content: "\ea1f";
+}
+.ws-information-letter-sign-outline:before {
+    content: "\ea20";
+}
+.ws-information-marker:before {
+    content: "\ea21";
+}
+.ws-informative-map:before {
+    content: "\ea22";
+}
+.ws-inr-bills:before {
+    content: "\ea23";
+}
+.ws-international-reception-worker:before {
+    content: "\ea24";
+}
+.ws-international-telephone-symbol-outline:before {
+    content: "\ea25";
+}
+.ws-iron-outline-side-view:before {
+    content: "\ea26";
+}
+.ws-iron-table-outline-from-side-view:before {
+    content: "\ea27";
+}
+.ws-italian-receptionist-saying-ciao:before {
+    content: "\ea28";
+}
+.ws-jacuzzi:before {
+    content: "\ea29";
+}
+.ws-key-with-label:before {
+    content: "\ea2a";
+}
+.ws-laptop-with-arroba-sign-on-screen:before {
+    content: "\ea2b";
+}
+.ws-left-and-right-arrows-on-a-thin-column:before {
+    content: "\ea2c";
+}
+.ws-letter-h-hotel-outline-with-five-stars:before {
+    content: "\ea2d";
+}
+.ws-library-placeholder:before {
+    content: "\ea2e";
+}
+.ws-library-symbol-outline:before {
+    content: "\ea2f";
+}
+.ws-lobby-sign:before {
+    content: "\ea30";
+}
+.ws-love-symbol-of-a-heart-outline-in-a-square:before {
+    content: "\ea31";
+}
+.ws-map-location:before {
+    content: "\ea32";
+}
+.ws-margarita-glass-drink:before {
+    content: "\ea33";
+}
+.ws-massage-session:before {
+    content: "\ea34";
+}
+.ws-mastercard:before {
+    content: "\ea35";
+}
+.ws-microwaves:before {
+    content: "\ea36";
+}
+.ws-minibar:before {
+    content: "\ea37";
+}
+.ws-minisplit:before {
+    content: "\ea38";
+}
+.ws-money-bills:before {
+    content: "\ea39";
+}
+.ws-monitor-screen-with-keyhole-shape:before {
+    content: "\ea3a";
+}
+.ws-musical-note-outline-symbol-inside-two-squares:before {
+    content: "\ea3b";
+}
+.ws-nine-persons-symbol-1:before {
+    content: "\ea3c";
+}
+.ws-nine-persons-symbol:before {
+    content: "\ea3d";
+}
+.ws-nine-persons:before {
+    content: "\ea3e";
+}
+.ws-no-animals-symbol:before {
+    content: "\ea3f";
+}
+.ws-no-cats-accepted:before {
+    content: "\ea40";
+}
+.ws-no-food-allowed:before {
+    content: "\ea41";
+}
+.ws-no-pets-allowed-symbol:before {
+    content: "\ea42";
+}
+.ws-no-vacancy-signal:before {
+    content: "\ea43";
+}
+.ws-one-bed-for-two:before {
+    content: "\ea44";
+}
+.ws-one-star-hotel-sign:before {
+    content: "\ea45";
+}
+.ws-one-star-hotel-signal:before {
+    content: "\ea46";
+}
+.ws-one-star-symbol:before {
+    content: "\ea47";
+}
+.ws-online-location:before {
+    content: "\ea48";
+}
+.ws-open-garage-under-the-sun:before {
+    content: "\ea49";
+}
+.ws-outdoors-table-with-chairs-couple-and-umbrella:before {
+    content: "\ea4a";
+}
+.ws-oven:before {
+    content: "\ea4b";
+}
+.ws-padlock-symbol-of-security-24-hours-a-day:before {
+    content: "\ea4c";
+}
+.ws-parking-for-disabled-persons-sign:before {
+    content: "\ea4d";
+}
+.ws-parking-garage-sign-in-rounded-square:before {
+    content: "\ea4e";
+}
+.ws-parking-meter:before {
+    content: "\ea4f";
+}
+.ws-parking-sign:before {
+    content: "\ea50";
+}
+.ws-parking-square-signal:before {
+    content: "\ea51";
+}
+.ws-parking-ticket:before {
+    content: "\ea52";
+}
+.ws-parking:before {
+    content: "\ea53";
+}
+.ws-pc-computer-and-monitor-outlines:before {
+    content: "\ea54";
+}
+.ws-persian-blinds-outline:before {
+    content: "\ea55";
+}
+.ws-person-ascending-on-electric-stairs:before {
+    content: "\ea56";
+}
+.ws-person-enjoying-jacuzzi-hot-water-bath:before {
+    content: "\ea57";
+}
+.ws-person-in-sauna-treatment:before {
+    content: "\ea58";
+}
+.ws-person-in-spa:before {
+    content: "\ea59";
+}
+.ws-person-lying-in-an-artificial-solar-tan-bed-for-indoor-bronze-skin-tone:before {
+    content: "\ea5a";
+}
+.ws-person-lying-on-a-beach-under-an-umbrella:before {
+    content: "\ea5b";
+}
+.ws-person-number-7-or-seven-persons:before {
+    content: "\ea5c";
+}
+.ws-person-riding-on-a-bicycle-side-view-silhouette:before {
+    content: "\ea5d";
+}
+.ws-person-rowing-on-a-kayak:before {
+    content: "\ea5e";
+}
+.ws-person-running-on-a-treadmill-silhouette-from-side-view:before {
+    content: "\ea5f";
+}
+.ws-person-silhouette-in-sauna:before {
+    content: "\ea60";
+}
+.ws-person-sweating-in-a-sauna:before {
+    content: "\ea61";
+}
+.ws-personal-elevator-signal:before {
+    content: "\ea62";
+}
+.ws-persons-in-group-of-four:before {
+    content: "\ea63";
+}
+.ws-persons-nine-silhouettes:before {
+    content: "\ea64";
+}
+.ws-persons-number-symbol:before {
+    content: "\ea65";
+}
+.ws-pets-circular-sign:before {
+    content: "\ea66";
+}
+.ws-photo-camera-frontal-outline:before {
+    content: "\ea67";
+}
+.ws-plate-fork-and-knife:before {
+    content: "\ea68";
+}
+.ws-plus-s:before {
+    content: "\ea69";
+}
+.ws-poker-cards:before {
+    content: "\ea6a";
+}
+.ws-poker-playing-cards:before {
+    content: "\ea6b";
+}
+.ws-pool-eight-ball-and-stick:before {
+    content: "\ea6c";
+}
+.ws-pool-rectangular-hanging-sign:before {
+    content: "\ea6d";
+}
+.ws-pool-table-top-view:before {
+    content: "\ea6e";
+}
+.ws-port-map-marker-point:before {
+    content: "\ea6f";
+}
+.ws-postcard-back-side:before {
+    content: "\ea70";
+}
+.ws-pound-bills:before {
+    content: "\ea71";
+}
+.ws-private-baggage-box-with-key:before {
+    content: "\ea72";
+}
+.ws-private-swimming-pool-sign:before {
+    content: "\ea73";
+}
+.ws-prohibition-of-wood-cutting-sign:before {
+    content: "\ea74";
+}
+.ws-public-elevator-sign:before {
+    content: "\ea75";
+}
+.ws-public-swimming-pool-sign:before {
+    content: "\ea76";
+}
+.ws-queen-size-bed:before {
+    content: "\ea77";
+}
+.ws-question-mark-inside-a-box-outline:before {
+    content: "\ea78";
+}
+.ws-rack-of-tall-thin-shape-for-hanging-clothes:before {
+    content: "\ea79";
+}
+.ws-radio-of-rectangular-rounded-simple-design:before {
+    content: "\ea7a";
+}
+.ws-radio-outline:before {
+    content: "\ea7b";
+}
+.ws-radio:before {
+    content: "\ea7c";
+}
+.ws-registered-sign:before {
+    content: "\ea7d";
+}
+.ws-restaurant-locator-for-map:before {
+    content: "\ea7e";
+}
+.ws-restaurant-symbol-of-utensils:before {
+    content: "\ea7f";
+}
+.ws-room-service-signal-for-hotel-doors:before {
+    content: "\ea80";
+}
+.ws-room-service-time:before {
+    content: "\ea81";
+}
+.ws-room-service:before {
+    content: "\ea82";
+}
+.ws-roulette:before {
+    content: "\ea83";
+}
+.ws-roundabout:before {
+    content: "\ea84";
+}
+.ws-rss-symbol-on-tablet-screen:before {
+    content: "\ea85";
+}
+.ws-safe-box-variant-outline:before {
+    content: "\ea86";
+}
+.ws-safe-box-with-wheel-system:before {
+    content: "\ea87";
+}
+.ws-sandals-pair-outline:before {
+    content: "\ea88";
+}
+.ws-satellite-tv-monitor-symbol:before {
+    content: "\ea89";
+}
+.ws-search-for-transport-interface-symbol:before {
+    content: "\ea8a";
+}
+.ws-security-box-closed-outline:before {
+    content: "\ea8b";
+}
+.ws-security-box:before {
+    content: "\ea8c";
+}
+.ws-seven-persons-or-person-number-7-symbol-outline:before {
+    content: "\ea8d";
+}
+.ws-seven-persons-symbol:before {
+    content: "\ea8e";
+}
+.ws-shopping-bag-outline:before {
+    content: "\ea8f";
+}
+.ws-shopping-cart-in-a-circle:before {
+    content: "\ea90";
+}
+.ws-shopping-zone-marker:before {
+    content: "\ea91";
+}
+.ws-shower:before {
+    content: "\ea92";
+}
+.ws-single-bed-outline:before {
+    content: "\ea93";
+}
+.ws-single-bed:before {
+    content: "\ea94";
+}
+.ws-six-persons-1:before {
+    content: "\ea95";
+}
+.ws-six-persons-2:before {
+    content: "\ea96";
+}
+.ws-six-persons-or-person-number-6-symbol:before {
+    content: "\ea97";
+}
+.ws-six-persons-sign:before {
+    content: "\ea98";
+}
+.ws-six-persons:before {
+    content: "\ea99";
+}
+.ws-slide-to-swimming-pool-water:before {
+    content: "\ea9a";
+}
+.ws-smoking-not-allowed-symbol:before {
+    content: "\ea9b";
+}
+.ws-smoking-prohibition-circular-signal:before {
+    content: "\ea9c";
+}
+.ws-snow-weather-symbol:before {
+    content: "\ea9d";
+}
+.ws-snowflake-weather-symbol:before {
+    content: "\ea9e";
+}
+.ws-soccer-ball-outline:before {
+    content: "\ea9f";
+}
+.ws-sofa-of-one-place-outline:before {
+    content: "\eaa0";
+}
+.ws-sofa-of-three-places-outline:before {
+    content: "\eaa1";
+}
+.ws-spoon-fork-and-knive-silhouettes-restaurant-symbol:before {
+    content: "\eaa2";
+}
+.ws-stair-of-a-swimming-pool:before {
+    content: "\eaa3";
+}
+.ws-stairs-in-a-square-sign:before {
+    content: "\eaa4";
+}
+.ws-star-for-number-one:before {
+    content: "\eaa5";
+}
+.ws-star-number-3:before {
+    content: "\eaa6";
+}
+.ws-star-number-five:before {
+    content: "\eaa7";
+}
+.ws-star-outline-in-a-circle-line:before {
+    content: "\eaa8";
+}
+.ws-star-outline-of-five-points:before {
+    content: "\eaa9";
+}
+.ws-star-with-number-4:before {
+    content: "\eaaa";
+}
+.ws-star-with-number-two:before {
+    content: "\eaab";
+}
+.ws-store-with-open-signal:before {
+    content: "\eaac";
+}
+.ws-sweet-bread-in-a-square:before {
+    content: "\eaad";
+}
+.ws-swimmer-in-water-waves-under-the-sun:before {
+    content: "\eaae";
+}
+.ws-swimmer-swimming-in-an-interior-covered-swimming-pool:before {
+    content: "\eaaf";
+}
+.ws-swimming-pool-covered-with-roof:before {
+    content: "\eab0";
+}
+.ws-swimming-pool-location-marker-for-maps:before {
+    content: "\eab1";
+}
+.ws-swimming-pool-location-marker:before {
+    content: "\eab2";
+}
+.ws-swimming-pool-opened-under-sunlight:before {
+    content: "\eab3";
+}
+.ws-swimming-pool-roofless-under-the-sun:before {
+    content: "\eab4";
+}
+.ws-swimming-pool-signal:before {
+    content: "\eab5";
+}
+.ws-swimming-pool-water-waves-with-ladder:before {
+    content: "\eab6";
+}
+.ws-swimming-pool-zone-marker:before {
+    content: "\eab7";
+}
+.ws-taxi-cab:before {
+    content: "\eab8";
+}
+.ws-taxi-outline:before {
+    content: "\eab9";
+}
+.ws-telephone-24-hours-sign:before {
+    content: "\eaba";
+}
+.ws-telephone-auricular-outline:before {
+    content: "\eabb";
+}
+.ws-telephone-outline-from-top-view:before {
+    content: "\eabc";
+}
+.ws-tennis-ball-and-raquet:before {
+    content: "\eabd";
+}
+.ws-tennis-racket-and-ball:before {
+    content: "\eabe";
+}
+.ws-tennis-raquet-and-ball:before {
+    content: "\eabf";
+}
+.ws-three-persons-sign:before {
+    content: "\eac0";
+}
+.ws-three-persons-silhouettes:before {
+    content: "\eac1";
+}
+.ws-three-persons:before {
+    content: "\eac2";
+}
+.ws-three-stars-hotel-sign:before {
+    content: "\eac3";
+}
+.ws-toaster-outline-tool:before {
+    content: "\eac4";
+}
+.ws-toilet-black-silhouette:before {
+    content: "\eac5";
+}
+.ws-toilet-hanging-sign:before {
+    content: "\eac6";
+}
+.ws-toilet-outline-in-a-square:before {
+    content: "\eac7";
+}
+.ws-towels-sale-symbol-with-dollar-sign:before {
+    content: "\eac8";
+}
+.ws-towels-with-checked-symbol:before {
+    content: "\eac9";
+}
+.ws-traveler-and-hotel-bed-outline:before {
+    content: "\eaca";
+}
+.ws-tub:before {
+    content: "\eacb";
+}
+.ws-tv-monitor:before {
+    content: "\eacc";
+}
+.ws-two-persons-or-person-number-two:before {
+    content: "\eacd";
+}
+.ws-two-persons-signal:before {
+    content: "\eace";
+}
+.ws-two-persons-silhouettes:before {
+    content: "\eacf";
+}
+.ws-two-persons-symbol-1:before {
+    content: "\ead0";
+}
+.ws-two-persons-symbol:before {
+    content: "\ead1";
+}
+.ws-two-stars-sign:before {
+    content: "\ead2";
+}
+.ws-umbrella-opened-outline:before {
+    content: "\ead3";
+}
+.ws-up-stairs-square-signal:before {
+    content: "\ead4";
+}
+.ws-urban-rest-hotel-sign-with-minus-symbol:before {
+    content: "\ead5";
+}
+.ws-vacancy-sign:before {
+    content: "\ead6";
+}
+.ws-ventilation-of-bedroom:before {
+    content: "\ead7";
+}
+.ws-washing-machine:before {
+    content: "\ead8";
+}
+.ws-wifi-usb-device-outline:before {
+    content: "\ead9";
+}
+.ws-wifi-zone-marker:before {
+    content: "\eada";
+}
+.ws-wifi-zone-rectangular-signal:before {
+    content: "\eadb";
+}
+.ws-wifi-zone-symbol:before {
+    content: "\eadc";
+}
+.ws-wine-locator:before {
+    content: "\eadd";
+}
+
